@@ -71,8 +71,8 @@ async function detialsData(mealId) {
                         </p>
                         <p class="text-white fw-bold m-2 p-2">Tags : <br></p>
                         <div class="m-2 p-2 tags rounded-2">${meal.strTags == null ? 'No Tags' : meal.strTags}</div>
-                        <a href="${meal.strSource}" class="srce text-white rounded-2">Source</a>
-                        <a href="${meal.strYoutube}" class="yot text-white rounded-2">Youtube</a>
+                        <a href="${meal.strSource}" target="_blank" class="srce text-white rounded-2">Source</a>
+                        <a href="${meal.strYoutube}" target="_blank" class="yot text-white rounded-2">Youtube</a>
                 </div>
         `
     document.querySelector('.oneDetials').innerHTML = cartona;
